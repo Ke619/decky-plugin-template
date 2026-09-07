@@ -1,27 +1,12 @@
 {
-  "name": "decky-plugin-template",
-  "version": "0.0.1",
-  "description": "A template to get started with decky-plugin development!",
+  "name": "slsconfig-decky",
+  "version": "1.0.0",
+  "description": "Edit SLS Steam config directly in Game Mode",
+  "author": "Ke619",
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -c -w"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SteamDeckHomebrew/decky-plugin-template.git"
-  },
-  "keywords": [
-    "decky",
-    "plugin",
-    "steam-deck",
-    "deck"
-  ],
-  "author": "JonnyHaystack",
-  "license": "BSD-3-Clause",
-  "bugs": {
-    "url": "https://github.com/SteamDeckHomebrew/decky-plugin-template/issues"
-  },
-  "homepage": "https://github.com/SteamDeckHomebrew/decky-plugin-template#readme",
   "devDependencies": {
     "@decky/rollup": "^1.0.1",
     "@decky/ui": "^1.0.1",
