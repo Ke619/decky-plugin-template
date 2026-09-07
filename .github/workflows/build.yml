@@ -18,7 +18,7 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm install --ignore-platform --omit=optional
+        run: npm install --force --omit=optional
 
       - name: Build
         run: npm run build
