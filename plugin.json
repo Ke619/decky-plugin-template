@@ -1,11 +1,10 @@
 {
-  "name": "Example Plugin",
-  "author": "John Doe",
-  "flags": ["debug", "_root"],
-  "api_version": 1,
+  "name": "SLSConfig Decky",
+  "author": "Ke619",
+  "flags": ["root"],
+  "main": "index.js",
   "publish": {
-    "tags": ["template", "root"],
-    "description": "Decky example plugin.",
-    "image": "https://opengraph.githubassets.com/1/SteamDeckHomebrew/PluginLoader"
+    "tags": ["sls", "steam", "config", "editor"],
+    "description": "Edit SLS Steam config directly in Game Mode"
   }
 }
